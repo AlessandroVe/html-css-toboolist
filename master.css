@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* HEADER */
+ #logo>h1{
+    display: inline-block;
+    height: 80px;
+    font-weight: 900;  
+    vertical-align: middle;
+}
+#logo{
+    position: relative;
+    left:1%;
+    top: 2vh;
+}
+/*  */
+/* MASTER-BOX */
+#master-box{
+    height: 100vh;
+    background-color: #ddd;
+    padding-top: 10vh;
+}
+/*  */
+/* NAV INPUT */
+#nav-input{
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    padding:10px 45px;
+    border-top-left-radius:15px;
+    border-top-right-radius: 15px;
+}
+#nav-input>input[type="button"]{
+    background-color:blue;
+    border:none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#master-box>#nav-input input[type="button"]:nth-child(2){
+    background-color: rgb(251, 253, 251);
+    color: grey;
+    border: .5px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+/*  */
+/* LIST-BOX */
+#list-box{
+    width: 60%;
+    background-color: white;
+    padding:10px;
+    margin:3px auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; 
+}
+#reference-list{
+    list-style:none;
+}
+.titles{
+    font-weight: 700;
+    font-size: 25px;
+    padding: 5px;
+}
+.titles>ul{
+    font-weight: 400;
+    font-size: 20px;
+    list-style:none;
+    position: relative;
+    right: 49px;
+}
+.sub-element-list{
+    margin: 15px;
+}
+.sub-element-list>.check,.cross{
+    border:  1px solid ;
+    padding: 1px 4px;
+    border-radius: 50%;
+}
+.check{
+    color: green;
+    border-color: green;
+}
+.cross{
+    color: red;
+    border-color: red;
+}
+.tag{
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 3px;
+    position: relative;
+    top: 5px;
+    color: white;
+}
+.editorial{
+    background-color: rgb(16, 163, 212);
+}
+.qi-goals{
+    background-color: rgb(169, 11, 218);
+}
+.recruting{
+    background-color: rgb(11, 241, 184);
+}
+.mobile{
+    background-color: orange;
+}
+.website{
+    background-color: palevioletred;
+}
+.sales{
+    background-color: yellowgreen;
+}
+/*  */
